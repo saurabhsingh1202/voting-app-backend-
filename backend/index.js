@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.use(express.json());
 
 // Routes
-app.use('/api/auth', authRoutes);
+app.use('/api/user', authRoutes);
 app.use('/api/poll', pollRoutes);
 
 // Connect to MongoDB
